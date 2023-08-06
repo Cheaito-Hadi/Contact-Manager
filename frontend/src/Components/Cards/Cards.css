@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  padding: 20px;
+  background-color: aqua;
+  display: flex;
+  margin: 20px;
+  flex-direction: column;
+  border-radius: 20px;
+}
