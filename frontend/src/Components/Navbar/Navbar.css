@@ -7,15 +7,21 @@
   }
 
 .navbar {
-    background-color: #333;
+    background-color: #E04050;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: stretch;
     gap: 2rem;
-    padding: 0 1rem;
+    padding: 1rem;
   }
   
+.site-logo{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
   .site-name {
     font-size: 2rem;
   }
@@ -35,12 +41,13 @@
     display: flex;
     align-items: center;
     padding: .25rem;
+    font-weight: 800;
   }
-  
-  .navbar li.active {
-    background-color: #555;
-  }
-  
-  .navbar li:hover {
-    background-color: #777;
+
+  .navbar a:hover {
+    background-color: #40E0D0;
+    font-size: 20px;
+    border-radius: 10px;
+    color: black;
+
   }
