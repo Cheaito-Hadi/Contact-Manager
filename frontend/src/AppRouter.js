@@ -1,5 +1,4 @@
 import React from "react";
-
 import AddContact from "./Components/AddContact/AddContact";
 import Cards from "./Components/Cards/Cards";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
