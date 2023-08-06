@@ -7,5 +7,7 @@ use App\Http\Controllers\ContactController;
 
 
 Route::post('/add_update_contact/{id?}', [ContactController::class, "addOrUpdateContact"]);
+Route::get('/show_contacts', [ContactController::class, "getContacts"]);
+
 
 

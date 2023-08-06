@@ -24,4 +24,16 @@ class ContactController extends Controller
         return response(["contacts" => $contact]);
 
     }
+
+    function getContacts()
+    {   
+        $contacts = Contact::all();
+        // foreach($contacts as $contact) 
+        // {
+        //     // return $contact->img_path;
+        //     $image64 = base64_encode(file_get_contents($contact->img_path));
+        //     $contact -> img_path = $image64;
+        // }
+        return response(["contacts" => $contacts]);
+    }
 }
